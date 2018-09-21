@@ -1,0 +1,7 @@
+print("Expressie	Uitkomst	type")
+print("5			5			integer")
+print("5.0			5.0			float")
+print("5%2			1			integer")
+print("5 > 1		true		boolean")
+print("'5'			'5'			string")
+print("5*2			10			integer")
