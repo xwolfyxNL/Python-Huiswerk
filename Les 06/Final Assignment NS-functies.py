@@ -26,3 +26,9 @@ def ritprijs(leeftijd, weekendrit, afstandKM):
         else:
             prijs = prijsophalen
     return prijs
+
+leeftijd = int(input('Geef je leeftijd op: '))
+weekendrit = input('Is het weekend? (True/False): ')
+afstandKM = float(input('Hoeveel km heb je gereisd: '))
+
+print('Je betaalt voor deze rit ' + str(ritprijs(leeftijd,weekendrit,afstandKM)))
