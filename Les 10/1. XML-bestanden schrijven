@@ -1,0 +1,8 @@
+from xml.dom import minidom
+
+xmldoc = minidom.parse('producten.xml')
+
+artikelen = xmldoc.getElementsByTagName("artikel")
+for artikel in artikelen:
+    naam = artikel.getElementsByTagName("naam")[0]
+    print(naam.firstChild.data)
